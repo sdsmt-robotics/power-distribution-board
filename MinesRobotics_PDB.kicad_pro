@@ -377,9 +377,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GateDrive",
-        "nets": [
-          "/Battery Power Distribution/GATE_DRIVE"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
@@ -397,18 +395,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "High Current",
-        "nets": [
-          "/Battery Power Distribution/DRIVE_MORTORS_RIGHT",
-          "/Battery Power Distribution/DRIVE_MOTORS_LEFT",
-          "/Fuses/AUX1_MOTORS1",
-          "/Fuses/AUX1_MOTORS2",
-          "/Fuses/AUX2_MOTORS1",
-          "/Fuses/AUX2_MOTORS2",
-          "/Fuses/DRIVE_MOTOR_LEFT_FRONT",
-          "/Fuses/DRIVE_MOTOR_LEFT_REAR",
-          "/Fuses/DRIVE_MOTOR_RIGHT_FRONT",
-          "/Fuses/DRIVE_MOTOR_RIGHT_REAR"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 16.4,
@@ -475,10 +462,6 @@
     [
       "0755aee5-bc01-4cb5-b830-583289df50a3",
       ""
-    ],
-    [
-      "8b1e64bb-a2ab-4357-888c-5ce4798604b3",
-      "Battery Power Distribution"
     ],
     [
       "6a43cbc3-957c-4b7d-9dbc-8c3175b73e7e",
