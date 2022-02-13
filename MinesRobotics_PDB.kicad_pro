@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 5.6,
-          "width": 5.6
+          "drill": 1.0,
+          "height": 7.4,
+          "width": 7.4
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.762
         }
       },
       "diff_pair_dimensions": [
@@ -55,7 +55,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_overlap|149952942|106156800|67a18a52-47f1-4533-a5f1-7dd560eb7379|bfde1ef4-37a3-4a50-a1e7-8610f507a1d3",
+        "silk_overlap|149952942|97191300|b377a492-e530-4dd7-8f43-7f044f2d8c21|67a18a52-47f1-4533-a5f1-7dd560eb7379",
+        "silk_overlap|149952942|98236300|67a18a52-47f1-4533-a5f1-7dd560eb7379|06a467f3-655a-4508-a92e-84e85f674c38",
+        "silk_overlap|149952942|99206800|67a18a52-47f1-4533-a5f1-7dd560eb7379|d36d66db-c956-4e60-a8a7-d98416897c56"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -415,7 +420,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "MinesRobotics_PDB.step",
+      "step": "3D Models/PDB_PCB.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -465,7 +470,7 @@
     ],
     [
       "6a43cbc3-957c-4b7d-9dbc-8c3175b73e7e",
-      "5V Power"
+      "Buck converter"
     ],
     [
       "6246cb0d-f771-4c14-9a1f-f63de926e353",
