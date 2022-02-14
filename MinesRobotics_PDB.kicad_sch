@@ -413,52 +413,52 @@
       (reference "D8") (unit 1) (value "LED_Small") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/6246cb0d-f771-4c14-9a1f-f63de926e353/4ed5d14f-456b-425b-9d37-b544d9e72f9c"
-      (reference "F1") (unit 1) (value "Fuse") (footprint "Fuse:Fuse_Blade_Mini_directSolder")
+      (reference "F1") (unit 1) (value "Fuse") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
     )
     (path "/6246cb0d-f771-4c14-9a1f-f63de926e353/5be0c3ec-362d-451c-bc35-62a3a7061140"
-      (reference "F2") (unit 1) (value "Fuse") (footprint "Fuse:Fuse_Blade_Mini_directSolder")
+      (reference "F2") (unit 1) (value "Fuse") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
     )
     (path "/6246cb0d-f771-4c14-9a1f-f63de926e353/a02e4182-1dd0-467d-8e43-a452ccb67619"
-      (reference "F3") (unit 1) (value "Fuse") (footprint "Fuse:Fuse_Blade_Mini_directSolder")
+      (reference "F3") (unit 1) (value "Fuse") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
     )
     (path "/6246cb0d-f771-4c14-9a1f-f63de926e353/8c5ee9fa-8b97-4c25-8e05-45cce2a6b628"
-      (reference "F4") (unit 1) (value "Fuse") (footprint "Fuse:Fuse_Blade_Mini_directSolder")
+      (reference "F4") (unit 1) (value "Fuse") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
     )
     (path "/6246cb0d-f771-4c14-9a1f-f63de926e353/16f267c8-cd84-42d2-a5b2-e89780abcc8a"
-      (reference "F5") (unit 1) (value "Fuse") (footprint "Fuse:Fuse_Blade_Mini_directSolder")
+      (reference "F5") (unit 1) (value "Fuse") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
     )
     (path "/6246cb0d-f771-4c14-9a1f-f63de926e353/44e3601a-782c-4627-884e-5d8c5fca3c47"
-      (reference "F6") (unit 1) (value "Fuse") (footprint "Fuse:Fuse_Blade_Mini_directSolder")
+      (reference "F6") (unit 1) (value "Fuse") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
     )
     (path "/6246cb0d-f771-4c14-9a1f-f63de926e353/40a19651-4896-4b19-8707-b662c1b0c71a"
-      (reference "F7") (unit 1) (value "Fuse") (footprint "Fuse:Fuse_Blade_Mini_directSolder")
+      (reference "F7") (unit 1) (value "Fuse") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
     )
     (path "/6246cb0d-f771-4c14-9a1f-f63de926e353/9e4b128c-9e70-495a-b2eb-221cb0c6e4b6"
-      (reference "F8") (unit 1) (value "Fuse") (footprint "Fuse:Fuse_Blade_Mini_directSolder")
+      (reference "F8") (unit 1) (value "Fuse") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
     )
     (path "/6246cb0d-f771-4c14-9a1f-f63de926e353/4f99303d-ce94-4007-9b57-c67c0d362347"
-      (reference "F9") (unit 1) (value "Fuse") (footprint "Fuse:Fuse_Blade_Mini_directSolder")
+      (reference "F9") (unit 1) (value "Fuse") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
     )
     (path "/6246cb0d-f771-4c14-9a1f-f63de926e353/93d0e9d1-5c29-4410-a36a-ca781ad33774"
-      (reference "F10") (unit 1) (value "Fuse") (footprint "Fuse:Fuse_Blade_Mini_directSolder")
+      (reference "F10") (unit 1) (value "Fuse") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
     )
     (path "/6246cb0d-f771-4c14-9a1f-f63de926e353/18ec8761-751e-4cfe-80d0-2792c16d6c3c"
-      (reference "F11") (unit 1) (value "Fuse") (footprint "Fuse:Fuse_Blade_Mini_directSolder")
+      (reference "F11") (unit 1) (value "Fuse") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
     )
     (path "/6246cb0d-f771-4c14-9a1f-f63de926e353/1705af3a-a7c5-471f-b001-d8bbd5a155c3"
-      (reference "F12") (unit 1) (value "Fuse") (footprint "Fuse:Fuse_Blade_Mini_directSolder")
+      (reference "F12") (unit 1) (value "Fuse") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
     )
     (path "/6246cb0d-f771-4c14-9a1f-f63de926e353/5f837917-7785-4416-bd6e-76854f2b582d"
-      (reference "F13") (unit 1) (value "Fuse") (footprint "Fuse:Fuse_Blade_Mini_directSolder")
+      (reference "F13") (unit 1) (value "Fuse") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
     )
     (path "/6246cb0d-f771-4c14-9a1f-f63de926e353/8dd74761-df26-4787-9b32-01128cbc1f91"
-      (reference "F14") (unit 1) (value "Fuse") (footprint "Fuse:Fuse_Blade_Mini_directSolder")
+      (reference "F14") (unit 1) (value "Fuse") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
     )
     (path "/6246cb0d-f771-4c14-9a1f-f63de926e353/dfe9bb7c-49d1-45e8-aa67-91ccde37b77f"
-      (reference "F15") (unit 1) (value "Fuse") (footprint "Fuse:Fuse_Blade_Mini_directSolder")
+      (reference "F15") (unit 1) (value "Fuse") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
     )
     (path "/6246cb0d-f771-4c14-9a1f-f63de926e353/7e545402-6bb3-469a-a222-b0c393a7590a"
-      (reference "F16") (unit 1) (value "Fuse") (footprint "Fuse:Fuse_Blade_Mini_directSolder")
+      (reference "F16") (unit 1) (value "Fuse") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
     )
     (path "/25fd1700-db9d-4ad6-9d29-ef69c7a0881b"
       (reference "H1") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
