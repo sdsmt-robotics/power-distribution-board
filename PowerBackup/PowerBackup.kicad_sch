@@ -388,6 +388,15 @@
     (path "/915b7dab-7a0a-46d7-be45-5545593eb525/a9968f53-b554-4be7-876e-c935d70809e9"
       (reference "#PWR04") (unit 1) (value "+3V3") (footprint "")
     )
+    (path "/915b7dab-7a0a-46d7-be45-5545593eb525/645112f8-7c6a-413e-b56c-1a570c6751bb"
+      (reference "#PWR05") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/915b7dab-7a0a-46d7-be45-5545593eb525/8a7f45c1-13a0-4bff-a771-e9cb6cc7a03b"
+      (reference "#PWR06") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/915b7dab-7a0a-46d7-be45-5545593eb525/a63763be-aa12-4d32-a31b-08f8f13fc838"
+      (reference "#PWR07") (unit 1) (value "GND") (footprint "")
+    )
     (path "/915b7dab-7a0a-46d7-be45-5545593eb525/f48b3a9e-c9dc-45f5-a7c6-6732b3f4762e"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
@@ -405,15 +414,6 @@
     )
     (path "/915b7dab-7a0a-46d7-be45-5545593eb525/8f3f3f11-417f-4c06-bbcc-b50211ba0028"
       (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/915b7dab-7a0a-46d7-be45-5545593eb525/df76a21f-dfcc-4c4b-8a4f-93477f13a409"
-      (reference "#PWR0107") (unit 1) (value "GNDD") (footprint "")
-    )
-    (path "/915b7dab-7a0a-46d7-be45-5545593eb525/b199df14-61ed-4e02-a1d2-b754be890da0"
-      (reference "#PWR0108") (unit 1) (value "GNDD") (footprint "")
-    )
-    (path "/915b7dab-7a0a-46d7-be45-5545593eb525/09851394-ea9a-4f0b-84c6-e70627d7efa3"
-      (reference "#PWR0109") (unit 1) (value "GNDD") (footprint "")
     )
     (path "/244de032-dfe4-4b77-a637-dbe4a930144c/a762cfd6-c7a5-414d-aa26-f57879d18beb"
       (reference "#PWR0110") (unit 1) (value "GNDD") (footprint "")
@@ -457,11 +457,11 @@
     (path "/244de032-dfe4-4b77-a637-dbe4a930144c/967b7cb4-a672-491d-8a35-bd2a5efb796e"
       (reference "C10") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
-    (path "/244de032-dfe4-4b77-a637-dbe4a930144c/c09d53bd-1ffb-4ffc-bedb-a988bc390254"
-      (reference "D1") (unit 1) (value "MBRB2515L") (footprint "Package_TO_SOT_SMD:TO-263-2")
+    (path "/244de032-dfe4-4b77-a637-dbe4a930144c/360c2bbd-a0a3-46a6-a8fc-000e22263bb0"
+      (reference "D1") (unit 1) (value "SB2060TA") (footprint "Diode_THT:D_A-405_P5.08mm_Vertical_KathodeUp")
     )
-    (path "/244de032-dfe4-4b77-a637-dbe4a930144c/dd90ac7e-3f2c-416b-9b68-cd5b2f6ea0ad"
-      (reference "D2") (unit 1) (value "MBRB2515L") (footprint "Package_TO_SOT_SMD:TO-263-2")
+    (path "/244de032-dfe4-4b77-a637-dbe4a930144c/d89ccf02-073e-45c7-b3c4-2fcf6c3ad832"
+      (reference "D2") (unit 1) (value "SB2060TA") (footprint "Diode_THT:D_A-405_P5.08mm_Vertical_KathodeUp")
     )
     (path "/f6ccf440-2838-4a53-b928-4b1956e22ff1"
       (reference "H1") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_2.7mm_M2.5_Pad")
@@ -492,6 +492,15 @@
     )
     (path "/244de032-dfe4-4b77-a637-dbe4a930144c/d920ae7c-7254-4ba3-a748-77d3127d67e9"
       (reference "J7") (unit 1) (value "Conn_01x02_Male") (footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical")
+    )
+    (path "/244de032-dfe4-4b77-a637-dbe4a930144c/424747b5-cad0-40ae-9bd2-c747a644e543"
+      (reference "J8") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical")
+    )
+    (path "/244de032-dfe4-4b77-a637-dbe4a930144c/7904edff-a518-4ea3-b817-d00665db3985"
+      (reference "J9") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical")
+    )
+    (path "/244de032-dfe4-4b77-a637-dbe4a930144c/379910df-000d-45db-b4a3-21d84a33cc86"
+      (reference "J10") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical")
     )
     (path "/915b7dab-7a0a-46d7-be45-5545593eb525/2345c7b2-fff0-403a-9adb-76f7cbc33c70"
       (reference "Q1") (unit 1) (value "ZXTP25040DFH") (footprint "Package_TO_SOT_SMD:SOT-23")
