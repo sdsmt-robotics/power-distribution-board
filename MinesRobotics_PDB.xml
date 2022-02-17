@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/pgk/Workspace/PDB/MinesRobotics_PDB.kicad_sch</source>
-    <date>Sun 13 Feb 2022 05:44:20 PM MST</date>
+    <date>Wed 16 Feb 2022 05:25:16 PM MST</date>
     <tool>Eeschema (6.0.1)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -125,12 +125,12 @@
     </comp>
     <comp ref="C1">
       <value>100u</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <footprint>Capacitor_SMD:CP_Elec_10x10</footprint>
+      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
       <property name="Sheetname" value="Buck converter"/>
       <property name="Sheetfile" value="AuxPower.kicad_sch"/>
       <sheetpath names="/Buck converter/" tstamps="/6a43cbc3-957c-4b7d-9dbc-8c3175b73e7e/"/>
-      <tstamps>9b348643-535f-4024-a7d0-4b7309f7b221</tstamps>
+      <tstamps>d5f0102a-ccd2-481d-aac9-a500663069d8</tstamps>
     </comp>
     <comp ref="C2">
       <value>0.1u</value>
@@ -143,7 +143,7 @@
     </comp>
     <comp ref="C3">
       <value>22u</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-7343-15_Kemet-W</footprint>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value="Buck converter"/>
       <property name="Sheetfile" value="AuxPower.kicad_sch"/>
@@ -179,7 +179,7 @@
     </comp>
     <comp ref="R1">
       <value>100</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value="Buck converter"/>
       <property name="Sheetfile" value="AuxPower.kicad_sch"/>
@@ -188,7 +188,7 @@
     </comp>
     <comp ref="R2">
       <value>100</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value="Buck converter"/>
       <property name="Sheetfile" value="AuxPower.kicad_sch"/>
@@ -223,7 +223,7 @@
     </comp>
     <comp ref="D1">
       <value>LED_Small</value>
-      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
       <property name="Sheetname" value="Fuses"/>
       <property name="Sheetfile" value="Fuses.kicad_sch"/>
@@ -232,7 +232,7 @@
     </comp>
     <comp ref="D2">
       <value>LED_Small</value>
-      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
       <property name="Sheetname" value="Fuses"/>
       <property name="Sheetfile" value="Fuses.kicad_sch"/>
@@ -241,7 +241,7 @@
     </comp>
     <comp ref="D3">
       <value>LED_Small</value>
-      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
       <property name="Sheetname" value="Fuses"/>
       <property name="Sheetfile" value="Fuses.kicad_sch"/>
@@ -250,7 +250,7 @@
     </comp>
     <comp ref="D4">
       <value>LED_Small</value>
-      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
       <property name="Sheetname" value="Fuses"/>
       <property name="Sheetfile" value="Fuses.kicad_sch"/>
@@ -259,7 +259,7 @@
     </comp>
     <comp ref="D5">
       <value>LED_Small</value>
-      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
       <property name="Sheetname" value="Fuses"/>
       <property name="Sheetfile" value="Fuses.kicad_sch"/>
@@ -268,7 +268,7 @@
     </comp>
     <comp ref="D6">
       <value>LED_Small</value>
-      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
       <property name="Sheetname" value="Fuses"/>
       <property name="Sheetfile" value="Fuses.kicad_sch"/>
@@ -277,7 +277,7 @@
     </comp>
     <comp ref="D7">
       <value>LED_Small</value>
-      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
       <property name="Sheetname" value="Fuses"/>
       <property name="Sheetfile" value="Fuses.kicad_sch"/>
@@ -286,7 +286,7 @@
     </comp>
     <comp ref="D8">
       <value>LED_Small</value>
-      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
       <property name="Sheetname" value="Fuses"/>
       <property name="Sheetfile" value="Fuses.kicad_sch"/>
@@ -511,7 +511,7 @@
     </comp>
     <comp ref="R3">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value="Fuses"/>
       <property name="Sheetfile" value="Fuses.kicad_sch"/>
@@ -520,7 +520,7 @@
     </comp>
     <comp ref="R4">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value="Fuses"/>
       <property name="Sheetfile" value="Fuses.kicad_sch"/>
@@ -529,7 +529,7 @@
     </comp>
     <comp ref="R5">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value="Fuses"/>
       <property name="Sheetfile" value="Fuses.kicad_sch"/>
@@ -538,7 +538,7 @@
     </comp>
     <comp ref="R6">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value="Fuses"/>
       <property name="Sheetfile" value="Fuses.kicad_sch"/>
@@ -547,7 +547,7 @@
     </comp>
     <comp ref="R7">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value="Fuses"/>
       <property name="Sheetfile" value="Fuses.kicad_sch"/>
@@ -556,7 +556,7 @@
     </comp>
     <comp ref="R8">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value="Fuses"/>
       <property name="Sheetfile" value="Fuses.kicad_sch"/>
@@ -565,7 +565,7 @@
     </comp>
     <comp ref="R9">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value="Fuses"/>
       <property name="Sheetfile" value="Fuses.kicad_sch"/>
@@ -574,7 +574,7 @@
     </comp>
     <comp ref="R10">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
       <property name="Sheetname" value="Fuses"/>
       <property name="Sheetfile" value="Fuses.kicad_sch"/>
@@ -597,6 +597,22 @@
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
         <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_Small_US">
+      <description>Polarized capacitor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="C_Small">
