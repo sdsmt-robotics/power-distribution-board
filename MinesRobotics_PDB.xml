@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/pgk/Workspace/PDB/MinesRobotics_PDB.kicad_sch</source>
-    <date>Wed 16 Feb 2022 05:25:16 PM MST</date>
+    <date>Sat 19 Feb 2022 01:20:23 PM MST</date>
     <tool>Eeschema (6.0.1)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -124,13 +124,13 @@
       <tstamps>cc62b2df-d5b5-4a52-be0a-8f610d12f28f</tstamps>
     </comp>
     <comp ref="C1">
-      <value>100u</value>
-      <footprint>Capacitor_SMD:CP_Elec_10x10</footprint>
-      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value="Buck converter"/>
       <property name="Sheetfile" value="AuxPower.kicad_sch"/>
       <sheetpath names="/Buck converter/" tstamps="/6a43cbc3-957c-4b7d-9dbc-8c3175b73e7e/"/>
-      <tstamps>d5f0102a-ccd2-481d-aac9-a500663069d8</tstamps>
+      <tstamps>68f64933-108f-4ad6-ab68-36e7aefa8c09</tstamps>
     </comp>
     <comp ref="C2">
       <value>0.1u</value>
@@ -149,6 +149,24 @@
       <property name="Sheetfile" value="AuxPower.kicad_sch"/>
       <sheetpath names="/Buck converter/" tstamps="/6a43cbc3-957c-4b7d-9dbc-8c3175b73e7e/"/>
       <tstamps>474561c1-26a1-4205-b0f8-f525b846a87d</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Buck converter"/>
+      <property name="Sheetfile" value="AuxPower.kicad_sch"/>
+      <sheetpath names="/Buck converter/" tstamps="/6a43cbc3-957c-4b7d-9dbc-8c3175b73e7e/"/>
+      <tstamps>11c78349-e8f8-4042-8f41-ad42182486df</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>22u</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-7343-15_Kemet-W</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Buck converter"/>
+      <property name="Sheetfile" value="AuxPower.kicad_sch"/>
+      <sheetpath names="/Buck converter/" tstamps="/6a43cbc3-957c-4b7d-9dbc-8c3175b73e7e/"/>
+      <tstamps>9bd3b295-cf9b-4409-8a15-32cee0098743</tstamps>
     </comp>
     <comp ref="C7">
       <value>10u</value>
@@ -599,22 +617,6 @@
         <pin num="2" name="Pin_2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="C_Polarized_Small_US">
-      <description>Polarized capacitor, small US symbol</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>CP_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C_Polarized_Small_US</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Device" part="C_Small">
       <description>Unpolarized capacitor, small symbol</description>
       <docs>~</docs>
@@ -759,6 +761,8 @@
     </net>
     <net code="2" name="+24V">
       <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
@@ -840,6 +844,8 @@
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
