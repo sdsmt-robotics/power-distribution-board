@@ -366,14 +366,20 @@
     (path "/6a43cbc3-957c-4b7d-9dbc-8c3175b73e7e/204994b9-c531-4ccd-bf9f-6a476e99ab2e"
       (reference "#PWR0117") (unit 1) (value "+9V") (footprint "")
     )
-    (path "/6a43cbc3-957c-4b7d-9dbc-8c3175b73e7e/d5f0102a-ccd2-481d-aac9-a500663069d8"
-      (reference "C1") (unit 1) (value "100u") (footprint "Capacitor_SMD:CP_Elec_10x10")
+    (path "/6a43cbc3-957c-4b7d-9dbc-8c3175b73e7e/68f64933-108f-4ad6-ab68-36e7aefa8c09"
+      (reference "C1") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/6a43cbc3-957c-4b7d-9dbc-8c3175b73e7e/ca9b4d23-33dc-44bf-bcd4-ceca80f4808b"
       (reference "C2") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/6a43cbc3-957c-4b7d-9dbc-8c3175b73e7e/474561c1-26a1-4205-b0f8-f525b846a87d"
       (reference "C3") (unit 1) (value "22u") (footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-15_Kemet-W")
+    )
+    (path "/6a43cbc3-957c-4b7d-9dbc-8c3175b73e7e/11c78349-e8f8-4042-8f41-ad42182486df"
+      (reference "C4") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/6a43cbc3-957c-4b7d-9dbc-8c3175b73e7e/9bd3b295-cf9b-4409-8a15-32cee0098743"
+      (reference "C5") (unit 1) (value "22u") (footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-15_Kemet-W")
     )
     (path "/6a43cbc3-957c-4b7d-9dbc-8c3175b73e7e/4b164835-6c8b-4c95-af30-50c82dd25735"
       (reference "C7") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric")
