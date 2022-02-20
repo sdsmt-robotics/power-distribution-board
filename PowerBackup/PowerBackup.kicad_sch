@@ -523,8 +523,8 @@
     (path "/244de032-dfe4-4b77-a637-dbe4a930144c/69540bea-a89c-470a-81b0-072969c50dcd"
       (reference "C17") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/244de032-dfe4-4b77-a637-dbe4a930144c/e8ac56e5-e89a-4c74-ab00-c21bb8cd83eb"
-      (reference "C18") (unit 1) (value "50u") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    (path "/244de032-dfe4-4b77-a637-dbe4a930144c/5f58c02c-5144-4740-88b6-2b6add1f316a"
+      (reference "C18") (unit 1) (value "47u") (footprint "Capacitor_Tantalum_SMD:CP_EIA-6032-15_Kemet-U")
     )
     (path "/244de032-dfe4-4b77-a637-dbe4a930144c/26be625e-1395-4963-9794-de0806651ece"
       (reference "C19") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -575,13 +575,13 @@
       (reference "J2") (unit 1) (value "Conn_01x07_Male") (footprint "Connector_JST:JST_XH_B7B-XH-A_1x07_P2.50mm_Vertical")
     )
     (path "/915b7dab-7a0a-46d7-be45-5545593eb525/c303f1c5-e7f8-48e8-8d49-a0941a2c7daa"
-      (reference "J3") (unit 1) (value "Conn_01x04_Male") (footprint "")
+      (reference "J3") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical")
     )
     (path "/915b7dab-7a0a-46d7-be45-5545593eb525/d7053445-3921-4871-be87-2f9ed254c5a6"
       (reference "J4") (unit 1) (value "Conn_01x05_Female") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical_SMD_Pin1Left")
     )
     (path "/915b7dab-7a0a-46d7-be45-5545593eb525/e16b7d09-8b94-4fdb-b350-5308c3623f93"
-      (reference "J5") (unit 1) (value "Conn_01x04_Male") (footprint "")
+      (reference "J5") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical")
     )
     (path "/915b7dab-7a0a-46d7-be45-5545593eb525/06f8c711-190b-4208-8344-d126d8c4df24"
       (reference "J6") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical")
@@ -662,7 +662,7 @@
       (reference "R19") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/244de032-dfe4-4b77-a637-dbe4a930144c/c0ea3127-3940-429d-baa1-1dec33df661b"
-      (reference "R20") (unit 1) (value "19.6k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R20") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/244de032-dfe4-4b77-a637-dbe4a930144c/15a6ba58-8677-48ba-a056-dc330ea95336"
       (reference "R21") (unit 1) (value "7k5") (footprint "Resistor_SMD:R_0603_1608Metric")
