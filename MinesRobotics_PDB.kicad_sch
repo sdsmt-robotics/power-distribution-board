@@ -366,6 +366,9 @@
     (path "/6a43cbc3-957c-4b7d-9dbc-8c3175b73e7e/204994b9-c531-4ccd-bf9f-6a476e99ab2e"
       (reference "#PWR0117") (unit 1) (value "+9V") (footprint "")
     )
+    (path "/6a43cbc3-957c-4b7d-9dbc-8c3175b73e7e/9cb0f695-454a-4046-9846-c42d023b5e2f"
+      (reference "#PWR0118") (unit 1) (value "GND") (footprint "")
+    )
     (path "/6a43cbc3-957c-4b7d-9dbc-8c3175b73e7e/68f64933-108f-4ad6-ab68-36e7aefa8c09"
       (reference "C1") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -410,6 +413,9 @@
     )
     (path "/6246cb0d-f771-4c14-9a1f-f63de926e353/3ba776f4-56bf-41f1-a2f7-6ff7600c0961"
       (reference "D8") (unit 1) (value "LED_Small") (footprint "LED_SMD:LED_0805_2012Metric")
+    )
+    (path "/6a43cbc3-957c-4b7d-9dbc-8c3175b73e7e/c7db7d27-105a-434e-b52f-5b1c9f1be21a"
+      (reference "D9") (unit 1) (value "BZX8450-C2V2VL") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/6246cb0d-f771-4c14-9a1f-f63de926e353/4ed5d14f-456b-425b-9d37-b544d9e72f9c"
       (reference "F1") (unit 1) (value "Fuse") (footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568")
@@ -507,8 +513,8 @@
     (path "/6246cb0d-f771-4c14-9a1f-f63de926e353/a85c55da-6410-4319-980d-497422af99fc"
       (reference "J9") (unit 1) (value "Conn_01x02_Female") (footprint "AndersonPowerPole:PowerPole_45A_Vert")
     )
-    (path "/6a43cbc3-957c-4b7d-9dbc-8c3175b73e7e/a84c00eb-ec0e-4de8-adb3-0de7fbd1645b"
-      (reference "R1") (unit 1) (value "100") (footprint "Resistor_SMD:R_0805_2012Metric")
+    (path "/6a43cbc3-957c-4b7d-9dbc-8c3175b73e7e/e34e1373-69b0-4599-a75a-7458f19f5398"
+      (reference "R1") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/6a43cbc3-957c-4b7d-9dbc-8c3175b73e7e/38558d19-bf59-489f-b5e7-c3fa774752dc"
       (reference "R2") (unit 1) (value "100") (footprint "Resistor_SMD:R_0805_2012Metric")
@@ -536,6 +542,12 @@
     )
     (path "/6246cb0d-f771-4c14-9a1f-f63de926e353/369ffe8d-3fc0-4f77-a239-415186e07fbd"
       (reference "R10") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/6a43cbc3-957c-4b7d-9dbc-8c3175b73e7e/b9fd349d-b383-435c-8562-be9b262ad840"
+      (reference "R11") (unit 1) (value "150") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/6a43cbc3-957c-4b7d-9dbc-8c3175b73e7e/3a662c7b-c091-4557-9962-4f918e36c1f6"
+      (reference "R12") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/6a43cbc3-957c-4b7d-9dbc-8c3175b73e7e/c6cc945b-63f6-4c71-b546-d8e6ecc8f2fb"
       (reference "RV1") (unit 1) (value "50k") (footprint "Potentiometer_THT:Potentiometer_Bourns_3266Y_Vertical")
