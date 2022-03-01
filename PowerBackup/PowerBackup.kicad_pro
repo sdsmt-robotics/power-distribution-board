@@ -55,7 +55,11 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|118846001|94520001|475c7496-a02e-46aa-a5ae-954880488f85|ff7463df-6954-42c1-832b-dc0371dff919",
+        "silk_over_copper|118818998|95082995|56f2246a-ca5d-4bdc-a6ce-8340e3541fdf|5ed86a31-dfc1-4e27-b0c6-c17717e10939",
+        "silk_over_copper|118818998|95082995|f71d4c3e-f86a-4840-a174-0688b672009d|5ed86a31-dfc1-4e27-b0c6-c17717e10939"
+      ],
       "meta": {
         "version": 2
       },
@@ -113,7 +117,7 @@
         "min_through_hole_diameter": 0.254,
         "min_track_width": 0.127,
         "min_via_annular_width": 0.1016,
-        "min_via_diameter": 0.254,
+        "min_via_diameter": 0.256,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
@@ -356,7 +360,7 @@
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.2,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
