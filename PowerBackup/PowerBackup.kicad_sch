@@ -770,6 +770,9 @@
     (path "/915b7dab-7a0a-46d7-be45-5545593eb525/204e421e-7eaf-4cb3-86fa-d9499c7c1b1a"
       (reference "R24") (unit 1) (value "100") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
+    (path "/244de032-dfe4-4b77-a637-dbe4a930144c/a4ca0b29-24f4-4fbd-9ad0-bd0c90912472"
+      (reference "R25") (unit 1) (value "2.21R") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/915b7dab-7a0a-46d7-be45-5545593eb525/7502ade2-8dff-4682-9787-9a2c2e5dc707"
       (reference "TH1") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
