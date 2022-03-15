@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "(6.0.1)"
+      "Version": "6.0.1-79c1e3a40b~116~ubuntu21.10.1"
     },
-    "CreationDate": "2022-02-28T21:32:53-07:00"
+    "CreationDate": "2022-03-15T17:01:46-06:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -94,6 +94,16 @@
     {
       "Path": "PowerBackup-Edge_Cuts.gbr",
       "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "PowerBackup-F_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "PowerBackup-B_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Bot",
       "FilePolarity": "Positive"
     }
   ],
